@@ -1,0 +1,395 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 25px 9%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar.log {
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: 5s;
+}
+.navbar ul li:hover a,
+.navbar ul li:hover :active a {
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px;
+  }
+
+  .hero-section {
+    display: flex;
+    align-items:center;
+    height: 100vh;
+    padding: 60px 9% 0;
+  }
+  .hero-section h1 {
+    font-size: 55px;
+  }
+  .hero-section h2 {
+    font-size: 32px;
+    margin-top: auto -10px;
+  }
+  .hero-section p {
+    font-size: 16px;
+    margin: 10px 0 25px;
+  }
+    
+  .hero-section .btn-sci {
+    display: flex;
+    align-items: center;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: aqua;
+    border: 2px solid aqua;
+    border-radius: 40px;
+    box-shadow: 0 0 10px slateblue
+   font- size 16px;
+   color: #1f242d;
+   font-weight: 600;
+   
+
+    
+  }
+
+
+  .btn:hover{
+    color: aqua;
+    box-shadow: none;
+  }
+
+   .hero-section .btn-sci .sci {
+    margin-left: 20px;
+
+   }
+   .hero-section .btn-sci .sci a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    margin: 0 8px;
+    transition: .5s;
+   }
+   .hero-section .btn-sci .sci a:hover{
+    background: aqua;
+    color: #1f242d;
+    box-shadow: 0 0 10px;
+   }
+
+   
+
+   .hero-img .img-box {
+    width: 32vw;
+    height: 32vw;
+    border-radius: 50%s;
+   }
+  
+
+   .hero-img .img-box  .img-item img {
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:  0 0 200px aqua
+
+   }
+
+ 
+  .profile-img {
+   ;
+  }
+  
+
+  
+body {
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: 0%;
+}
+
+a{
+    color: #fcfbfd;
+    text-decoration: none;
+}
+
+
+.home-info h1 {
+    font-size: 55px;
+}
+
+
+
+.home-info h2 {
+    font-size: 40px;
+    margin-top:10px 0 -20px;
+}
+.home-info p {
+    font-size: 16px;
+    margin: 10px 0 30px;
+
+}
+
+
+
+.
+/* ==========================À propos ======================================*/
+
+
+.apropos {
+
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.apropos > h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 0 0 25px aqua;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.conteneur_apropos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.apropos_enfant {
+    width: 45%;
+}
+
+.apropos_enfant > img {
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:  0 0 200px aqua;
+}
+#aprops_enfant {
+    border: 2px solid aqua;
+    padding: 25px;
+}
+
+/* ======================================== PROJETS ====================================*/
+
+.projet {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.projet > h2 {
+
+    font-size: 40px;
+    font-weight: 900;
+    color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 0 0 25px aqua;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.conteneur_projet {
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projet_enfant {
+    margin: 10px;
+    width: 50vh;
+    height: 70vh;
+    border: 2px solid aqua;
+}
+
+.projet_enfant > img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+
+}
+
+.projet_enfant > h3 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 5px;
+    color: aqua;
+}
+
+/*===============================Contact=======*/
+.mini_conteneur p {
+    background: aqua;
+    color: #1f242d;
+    box-shadow: 0 0 10px;
+}
+
+.conteneur_contact p {
+    margin-left: 10px;
+
+}
+
+
+.conteneur_contact p i {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.conteneur_contact p i:hover{
+    background: aqua;
+    color: #1f242d;
+    box-shadow: 0 0 10px;
+}
+
+
+.mini_conteneur label {
+    width: 200px; 
+    margin-right: 30px; 
+    text-align: left; 
+    font-size: 32px
+}
+
+.mini_conteneur input {
+    width: 300px; 
+    height: 40px;
+    border: 2px solid #0ef;
+    border-radius: 5px;
+}
+
+
+.mini_conteneur textarea {
+    width: 300px; 
+    margin-bottom: 25px;
+    height: 80px;
+    border: 2px solid #0ef;
+    border-radius: 5px;
+}
+
+.mini_conteneur {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/*====================  Alignement de deux parties  ====================== */
+
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.conteneur_contact {
+    display: block;
+    width: 40%;
+    height: 50hv;
+    padding: 20px;
+}
+
+.conteneur_contact > p i {
+    margin-left: 10px;
+
+}
+
+
+
+
+.conteneur_contact > p {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.conteneur_contact > h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #0ef;
+    margin: 10px;
+}
+
+.envoyer1 {
+    padding: 5px;
+    background: #0ef;
+    color: #081b29;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.envoyer1:hover {
+
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+#formulaire {
+
+    border: 2px solid #0ef ;
+     border-radius: 5px;
+}
+
